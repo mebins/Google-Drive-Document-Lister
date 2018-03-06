@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Welcome</title>
+  </head>
+  <body>
+    <p>
+{% set list1 = text.split(',') %}
+
+<ul>
+{% for item in list1 %}
+ <li> {{item}}</li>
+{% endfor %}
+</ul>
+</p>
+  </body>
+</html>
